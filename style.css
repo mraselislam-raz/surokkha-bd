@@ -1,0 +1,228 @@
+
+/* global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Georama', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.hover-item{
+    transition: .4s;
+    cursor: pointer;
+}
+
+.hover-item:hover{
+    background-color: rgb(221, 222, 247);
+}
+
+
+/* Main CSS */
+
+/* navbar section */
+.nav-section{
+    background: #eef3fd;
+    /* position: sticky;
+    width: 100%;
+    z-index: 1000;
+    top: 0; */
+    box-shadow: 0px 0px 2px rgba(1, 1, 1, .5);
+}
+
+
+.nav-menu{
+    
+    
+}
+
+.nav-menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    margin:30px 0;
+    list-style: none;
+
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    padding: 20px 5px;
+    margin-top: 20px;
+    color: #777;
+    transition: .1s;
+
+}
+
+.nav-menu ul li a:hover{
+    color: #111;
+    border-bottom: 3px solid #111;
+}
+
+
+/* header-section */
+.header-section{
+    background-image: url(./imgs/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-row{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.reg-card{
+    height: 70vh;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.reg-card-head h4{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.reg-card-info{
+    margin-top: 80px;
+}
+.reg-card-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.status{
+    height: 70vh;
+    border-radius: 10px;
+
+}
+
+.status-item{
+    width: 100%;
+    height: 24%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+/* hotline section */
+
+.hotline-section{
+    margin-top: -30px;
+}
+
+.hotline-row{
+    background: #fff;
+    padding: 20px 0;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, .3    );
+    margin-bottom: 50px;
+}
+
+.hotline-info{
+    border-right: 2px solid #666;
+}
+
+.last-hotline{
+    border-right: none;
+}
+
+.hotline-info h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(9, 116, 55);
+    margin-bottom:15px;
+    cursor: pointer;
+}
+
+.process-title{
+    position: relative;
+}
+
+.process-items{
+    width: 100%; 
+    box-shadow: 2px 2px 5px rgba(1, 1, 1, .3    );
+    margin:20px auto;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.download-app-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-source img{
+    width: 60%;
+}
+
+.mujib-header{
+    margin-left: 50px;
+}
+
+.mujib-header{
+    position: relative;
+}
+
+.mujib-header-text{
+    margin-left: 20px;
+    font-weight: 600;
+    font-style: 20px;
+}
+
+.mujib-header-text::before{
+    content: "";
+    width: 5px;
+    height: 40px;
+    background: red;
+    color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footer-section{
+    background: #f26d3e     ;
+}
+
+.footer-text a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    transition: .3s;
+    padding-bottom: 10px;
+}
+
+.footer-text a:hover{
+    color: rgb(51, 68, 63);
+}
+.footer-bottom{
+    position: relative;
+}
+
+.footer-bottom p{
+    color: #fff;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: rgb(35, 255, 28);
+}
+
